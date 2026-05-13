@@ -1,6 +1,6 @@
-package application;
+package triangulo.application;
 
-import entities.Triangle;
+import triangulo.entities.Triangle;
 import java.util.Scanner;
 
 public class Program {
