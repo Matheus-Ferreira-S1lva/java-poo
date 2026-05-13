@@ -19,7 +19,24 @@ public class Sistema {
         System.out.print("Quantidade em Estoque: ");
         produto.quantidade = teclado.nextInt();
 
-        System.out.println(produto.nome + ", " + produto.preco + ", " + produto.quantidade);
+        System.out.println();
+        System.out.println("Dados do produto " + produto);
+
+        System.out.println();
+        System.out.println("Adicione quantidade no estoque do porduto: ");
+        int quantidade = teclado.nextInt();
+        produto.addProduto(quantidade);
+
+        System.out.println();
+        System.out.println("Estoque atualizado para " + produto);
+
+        System.out.println();
+        System.out.println("Remova quantidade do estoque do produto: ");
+        quantidade = teclado.nextInt();
+        produto.removerProdutos(quantidade);
+
+        System.out.println();
+        System.out.println("Dados do produto " + produto);
 
         teclado.close();
     }
