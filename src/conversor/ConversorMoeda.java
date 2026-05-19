@@ -1,4 +1,4 @@
-package convertor;
+package conversor;
 
 public class ConversorMoeda {
     private double dolarPreco;
