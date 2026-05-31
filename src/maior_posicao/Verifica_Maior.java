@@ -20,5 +20,7 @@ public class Verifica_Maior {
 
         calcula_maior.CalcP();
 
+        teclado.close();
+
     }
 }
