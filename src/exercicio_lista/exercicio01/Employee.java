@@ -1,4 +1,4 @@
-package exercicio_lista;
+package exercicio_lista.exercicio01;
 
 public class Employee {
 
