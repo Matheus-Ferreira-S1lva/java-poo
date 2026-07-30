@@ -1,4 +1,4 @@
-package Data_Hora_Exercicios.Consultas.Exercicios.desafiosVoos;
+package Data_Hora_Exercicios.Exercicios.desafiosVoos;
 
 import java.time.ZoneId;
 import java.time.ZonedDateTime;
