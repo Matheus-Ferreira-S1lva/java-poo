@@ -1,4 +1,4 @@
-package Data_Hora_Exercicios.Consultas.Exercicios;
+package Data_Hora_Exercicios.Consultas.Exercicios.desafiosVoos;
 
 import java.time.LocalDateTime;
 
