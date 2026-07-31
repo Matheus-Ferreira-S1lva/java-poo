@@ -1,4 +1,4 @@
-package Data_Hora_Exercicios.Exercicios.calcIdade;
+package datahora.exercicios.calcIdade;
 
 import java.time.LocalDate;
 import java.time.Period;

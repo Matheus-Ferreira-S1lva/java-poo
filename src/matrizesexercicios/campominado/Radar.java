@@ -1,4 +1,4 @@
-package matrizesExercicios.CampoMinado;
+package matrizesexercicios.campominado;
 
 public class Radar {
     private int[][] matriz;

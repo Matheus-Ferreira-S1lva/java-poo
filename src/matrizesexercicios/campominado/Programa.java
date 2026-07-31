@@ -1,4 +1,4 @@
-package matrizesExercicios.CampoMinado;
+package matrizesexercicios.campominado;
 
 import java.util.Scanner;
 

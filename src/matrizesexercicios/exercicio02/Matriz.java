@@ -1,4 +1,4 @@
-package matrizesExercicios.exercicio02;
+package matrizesexercicios.exercicio02;
 
 public class Matriz {
     private int[][] matriz;

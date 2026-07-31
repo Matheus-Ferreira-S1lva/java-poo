@@ -1,4 +1,4 @@
-package matrizesExercicios.vendedor;
+package matrizesexercicios.vendedor;
 
 public class CalculaMatriz {
 

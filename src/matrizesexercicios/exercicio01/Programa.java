@@ -1,4 +1,4 @@
-package matrizesExercicios.exercicio01;
+package matrizesexercicios.exercicio01;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package matrizesExercicios.vendedor;
+package matrizesexercicios.vendedor;
 
 import java.util.Scanner;
 

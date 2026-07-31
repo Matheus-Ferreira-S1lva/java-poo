@@ -1,4 +1,4 @@
-package Laço_for_each;
+package laçoforeach;
 
 public class Programa {
     public static void main(String[] args) {
