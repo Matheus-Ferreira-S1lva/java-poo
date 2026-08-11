@@ -1,4 +1,4 @@
-package enumeracao_composicao.cafeteria.entities;
+package enumeracao_composicao.cafeteria;
 
 public enum TipoCafe {
     ESPRESSO,
