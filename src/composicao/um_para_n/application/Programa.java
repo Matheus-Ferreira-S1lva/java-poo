@@ -1,7 +1,7 @@
-package composicao.stringbuilder.application;
+package composicao.um_para_n.application;
 
-import composicao.stringbuilder.entities.Comment;
-import composicao.stringbuilder.entities.Post;
+import composicao.um_para_n.entities.Comment;
+import composicao.um_para_n.entities.Post;
 
 public class Programa {
     public static void main(String[] args) {

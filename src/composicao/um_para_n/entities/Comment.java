@@ -1,4 +1,4 @@
-package composicao.stringbuilder.entities;
+package composicao.um_para_n.entities;
 
 public class Comment {
     private String text;

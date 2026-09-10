@@ -1,4 +1,4 @@
-package composicao.stringbuilder.entities;
+package composicao.um_para_n.entities;
 
 import java.util.ArrayList;
 import java.util.Date;
