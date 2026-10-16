@@ -30,13 +30,27 @@ public class Programa {
             acc5.updateBalance();
             System.out.println("Update!");
         }
-        /*
 
-        BusinessAccount account = new BusinessAccount(8010, "Bob Brown", 0.0, 500.0);
+        /* Sobreposição, palavra super, anotação @Override*/
 
-        System.out.println(account.getBalance());
+        // Sem a sobreposicao
 
-        */
+        System.out.println("Sobreposição, palavra super, anotação @Override");
+        Account sem = new Account(1090, "Alex", 1000.0);
+        sem.withdraw(200.0);
+        System.out.println(sem.getBalance());
+
+        // Com sobreposicao
+
+        Account com = new SavingsAccount(1080, "Maria", 1000.0, 0.01);
+        com.withdraw(200.0);
+        System.out.println(com.getBalance());
+
+        // Usando o super
+
+        Account sup = new BusinessAccount(1050, "Julia", 1000.0, 500.0);
+        sup.withdraw(200.0);
+        System.out.println(sup.getBalance());
 
     }
 }
