@@ -52,5 +52,17 @@ public class Programa {
         sup.withdraw(200.0);
         System.out.println(sup.getBalance());
 
+        // Polimorfismo
+
+        Account x = new Account(1020, "Alex", 1000.0);
+        Account y = new SavingsAccount(1023, "Maria", 1000.0, 0.01);
+
+        x.withdraw(50.0);
+        y.withdraw(50.0);
+
+        System.out.println("\nPolimorfismo");
+        System.out.println(y.getBalance());
+        System.out.println(x.getBalance());
+
     }
 }
