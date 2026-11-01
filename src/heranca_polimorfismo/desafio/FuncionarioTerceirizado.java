@@ -1,4 +1,4 @@
-package heranca.desafio;
+package heranca_polimorfismo.desafio;
 
 public class FuncionarioTerceirizado extends Funcionario {
     private Double cobrancaAdicional;

@@ -1,4 +1,4 @@
-package heranca.desafio;
+package heranca_polimorfismo.desafio;
 
 import java.util.List;
 import java.util.Scanner;

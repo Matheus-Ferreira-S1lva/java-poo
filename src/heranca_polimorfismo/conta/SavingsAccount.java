@@ -1,4 +1,4 @@
-package heranca.conta;
+package heranca_polimorfismo.conta;
 
 public class SavingsAccount  extends Account {
     private Double interestRate;
