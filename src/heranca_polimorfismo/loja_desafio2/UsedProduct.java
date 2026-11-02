@@ -23,7 +23,6 @@ public class UsedProduct extends Product {
     public String priceTag() {
         DateTimeFormatter fmt = DateTimeFormatter.ofPattern("dd/MM/yyyy");
         String date = manufacturedDate.format(fmt);
-        return String.format("%s (used), $ %.2f (Manufacture date: %s) ", getName() + getPrice(), date);
+        return String.format("%s (used), $ %.2f (Manufacture date: %s) ", getName(), getPrice(), date);
     }
-
 }
